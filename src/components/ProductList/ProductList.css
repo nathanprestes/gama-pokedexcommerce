@@ -1,0 +1,51 @@
+.poke-list{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.poke-list ul{
+    padding: 0px;
+}
+
+.poke-item{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: 5px 0;
+    -webkit-transition: .36s ease-out;
+    -moz-transition: .36s ease-out;
+    transition: .36s ease-out;
+    -o-transition: .36s ease-out;
+}
+
+.poke-item:hover{
+    background: #000;
+    color: #FFF;
+}
+
+.poke-item > *{display: inline-block;vertical-align: middle;}
+
+.poke-item a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.poke-item:hover a{
+    color: #F00;
+}
+
+.poke-item div{}
+
+.poke-item button{
+    margin: 0 10px;
+    border: 1px solid #FFF;
+    background: #000;
+    color: #FFF;
+}
